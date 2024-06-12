@@ -1,0 +1,36 @@
+body{
+    font-family: cursive;
+    background-color: #ffffff;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+header {
+    display: flex;
+    height: 60px;
+    background-image: linear-gradient(to right, #a3d8e5, #8cc049);
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 3px 3px #8d8b8b;
+}
+
+.logo img{
+    height: 32px;
+    display: flex;
+    margin-top: 7px;
+}
+
+nav a{
+    font-weight: 28;
+    padding-right: 28px;
+    font-size: 20px;
+}
+nav a:hover{
+    color: #ffffff;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro JF</title>
+    <link rel="stylesheet" href="estilos/registro.css">
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="stylesheet" href="estilos/card.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">
+            <img src="img/Aroma sell.png" alt="logo">
+        </a>
+        <center>
+            <nav>
+                <a href="index.html" class="nav-link">Inicio</a>
+                <a href="contactos.html" class="nav-link">Contactos</a>
+                <a href="login.html" class="nav-link">Registro</a>
+            </nav>
+        </center>
+    </header>
+    <main>
+        <form action="recibirdatos.php" name="aromasell" method="post">
+
+            <h1>Registro de usuario</h1>
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+
+            <label for="direccion">Direccion:</label>
+            <input type="text" id="direccion" name="direccion" required>
+
+            <label for="celular">Celular:</label>
+            <input type="tel" id="celular" name="celular" required>
+
+            <input type="submit" value="Registrar">
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Aromasell. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
